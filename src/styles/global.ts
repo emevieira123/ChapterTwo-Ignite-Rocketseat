@@ -4,8 +4,9 @@ export const GlobalStyle = createGlobalStyle`
 :root {    
     --red: #e53e4d;
     --blue: #5429cc;
+    --green: #33cc95;
 
-    --blue-ligth: #6933ff;
+    --blue-light: #6933ff;
 
     --text-title: #363f5f;
     --text-body: #969cb3;
@@ -31,7 +32,7 @@ html {
 }
 
 body {
-    background: var(---background);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
 }
 
